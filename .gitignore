@@ -22,6 +22,40 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+*.dmp
+
+# Test results & coverage
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# User secrets / local settings
+secrets.json
+local.settings.json
+
+# LocalDB files
+*.mdf
+*.ldf
+
+# IDE & editor
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# SQL Server / EF
+**/Migrations/*.Designer.cs
+
+# Publish profiles
+Properties/PublishProfiles/
 
 # .NET Core
 project.lock.json
